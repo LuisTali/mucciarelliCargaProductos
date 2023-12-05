@@ -1,0 +1,30 @@
+><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registracion Producto</title>
+    <link rel="stylesheet" href="formAbelMucciarelli.css">
+</head>
+<body>
+    <form>
+        <h2>Mucciarelli Carga de Productos</h2>
+        <div class="inputGroup">
+            <label>Nombre Producto</label>
+            <input type="text" id="nameProducto"/>
+        </div>
+        <div class="dragFilesZone" draggable="true">
+            <label id="labelInputFile" ondragover="" for="inputFile">Cliquee para elegir o Arraste imagenes aqui</label>
+            <input type="file" id="inputFile" accept="image/*"/>
+        </div>
+        <div class="buttonsDiv">
+            <button id="cargarButton">CARGAR</button>
+            <button id="limpiarButton">LIMPIAR</button>
+        </div>
+        <div class="previewImages">
+            
+        </div>
+    </form>
+</body>
+<script src="./formAbelMucciarelli.js"></script>
+</html>
